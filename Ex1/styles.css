@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    font-family: Arial
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 10px;
+    width: 98%;
+}
+
+.input {
+    height: 10px;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+.headerLeft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMiddle {
+    justify-content: space-between;
+}
+
+.headerRight {
+}
+
+.headerbtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footerLeft a{
+    color: black;
+    background-color: white;
+}
+
+.footerLeft a:hover{
+    color: blue;
+    background-color: white;
+}
+
+.footerbtn {
+    font-size: 20px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.footerbtn:hover {
+    background-color: palegoldenrod;
+}
+
+.content {
+    padding: 5px;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 1024px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.infoContainer img {
+    position: relative;
+    top:-50px;
+    left:1%;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+    left: -7%;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    width:300px;
+    height:200px;
+    font-size: 20px;
+}
+
+.messageContainer button {
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer; 
+}
+
+.messageContainer button:hover {
+    background-color: palegoldenrod;
+}
