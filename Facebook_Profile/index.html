@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="plugins/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg sticky-top">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="nav-left">
+                <img src="./imgs/facebook.png" style="width: 40px; height: 40px;">
+                <div class="search-box">
+                    <i class="fa fa-search"></i>
+                    <input class="form-control me-2 shadow-none" type="search" placeholder="Search" aria-label="Search">
+                </div>
+            </div>
+
+            <div class="nav-middle">
+                <div class="container">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="container">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <div class="container">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div class="container">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="container">
+                    <i class="fas fa-th-large"></i>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button class="fuction-btn me-2" style="top: -8px;">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+                <button class="fuction-btn me-2" style="top: -8px;">
+                    <i class="far fa-comment-dots"></i>
+                </button>
+                <button class="fuction-btn me-2" style="top: -8px;">
+                    <i class="far fa-bell"></i>
+                </button>
+                <button class="fuction-btn me-2" style="background-image: url('./imgs/python.png'); background-size: cover; width: 40px; height: 40px;">
+                </button>
+            </div>          
+        </div>
+    </nav>
+
+    <section class="bg-white">
+        <div class="container">
+            <!-- Background image -->
+            <div
+            class="p-5 shadow-lg mb-4"
+            style="
+                background-image: url('./imgs/background.png');
+                height: 405px; width: 1106; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px">
+            </div>
+            <img src="./imgs/python.png" alt="" class="avatar shadow-lg">
+            <div class="abc-container border-bottom">
+                <div class="info-container">
+                    <div class="info">
+                        <h2><strong>Python</strong></h2>
+                        <p class="text-muted">@pythonlang · Interest</p>
+                    </div>
+                    <div class="direct-message text-center">
+                        <button type="button" class="btn"><i class="fab fa-facebook-messenger me-2"></i>Send message</button>
+                        <p class="text-muted mt-2" style="font-size: 15px;">Hi! Please let us know how we can help.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-option d-flex shadow-none">
+                <div class="left-option">
+                    <button><b>Home</b></button>
+                    <button><b>About</b></button>
+                    <button><b>Photos</b></button>
+                    <button><b>Video</b></button>
+                    <button><b>More</b></button>
+                </div>
+                <div class="right-option">
+                    <button type="button" class="px-2"><i class="fas fa-thumbs-up me-2 px-1"></i></i>Like</button>
+                    <button><i class="fa fa-search" style="width: 30px;"></i></button>
+                    <button><i class="fas fa-ellipsis-h" style="width: 30px;"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

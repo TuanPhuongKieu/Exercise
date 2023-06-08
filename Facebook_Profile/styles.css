@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.nav {
+    background-color: gold;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box i {
+    position: absolute;
+    top: 38%;
+    left: 80px;
+}
+
+.search-box input {
+    height: 43px;
+    text-indent: 25px;
+    border-radius: 40px;
+}
+
+.nav-middle {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-middle i {
+    color: gray;
+    font-size: 28px;
+}
+
+.nav-middle i:hover {
+    color: #36454F;
+}
+
+.nav-right {
+    gap: 10px;
+}
+
+.nav-right img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.nav-right i {
+    font-size: 28px;
+    color: #080f0f;
+}
+
+.fuction-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    border: #E5E4E2;
+    background: #E5E4E2;
+}
+
+.fuction-btn:hover {
+    background: #818589;
+}
+
+.avatar {
+    position: absolute;
+    top: 425px;
+    left: 165px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.abc-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+}
+
+.direct-message {
+    font-size: 20px;
+}
+
+.direct-message button{
+    width: 300px;
+    height: 44px;
+    border-radius: 8px;
+    color: white;
+    background: #006AFF;
+    outline: none;
+}
+
+.direct-message button:hover{
+    background: #00B2FF;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.page-option {
+    justify-content: space-between;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.left-option button {
+    color: gray;
+    background: white;
+    border: 2px #E5E4E2;
+    border-radius: 10px;
+}
+
+.left-option button:hover {
+    background: #E5E4E2;
+}
+
+.left-option button:focus {
+    color: #006AFF;
+    border-bottom: 3px #006AFF;
+    border-bottom-style: solid;
+}
+
+.right-option button {
+    color: gray;
+    background: #E5E4E2;
+    height: 40px;
+    border-radius: 10px;
+    border: white;
+    margin-right: 2px;
+}
+
+.right-option button:hover {
+    background: lightgray;
+}
+
+.right-option button:active {
+    color: #006AFF;
+    background: #e8f4f8;
+}
